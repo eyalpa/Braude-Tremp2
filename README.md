@@ -1,6 +1,6 @@
 # Braude-Tremp2
 Main screen , not need to connect to see all rides to Braude.
-![1]
+![picture](/screenshots/Screen Shot 2017-09-12 at 14.35.00.png)
 
 same screen -> difrent way (back home)
 ![2]
