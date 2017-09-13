@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center|center_vertical|top"
+    android:weightSum="10"
+    android:background="@drawable/background_driver">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text=""
+        android:id="@+id/editDate"
+        android:background="@android:color/transparent"
+        android:layout_weight="1"/>
+
+    <ListView
+        android:id="@android:id/list"
+        android:layout_width="fill_parent"
+        android:layout_height="396dp"
+        android:textSize="10dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:layout_gravity="left"
+        android:textAlignment="center"
+        android:layout_below="@+id/editDate"
+        android:background="@android:color/transparent"
+        android:layout_weight="8"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:background="@drawable/buttonshape"
+        android:shadowColor="#005AA8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:text="הוסף נסיעה"
+        android:id="@+id/DriverMain_AddTravel"
+        android:onClick="onAddRideActivityClick"
+        android:layout_row="1"
+        android:layout_column="0"
+        android:layout_weight="1" />
+</LinearLayout>

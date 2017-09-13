@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Users/eyalpano/AndroidStudioProjects/wheel-view/app/build/intermediates/exploded-aar/wheel-view.libraries/wheel/unspecified/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="0fd077e19a6f7e03a7699f965734aa7f1d551e7d">
+        <dex dex="/Users/eyalpano/AndroidStudioProjects/wheel-view/app/build/intermediates/pre-dexed/debug/wheel-view.libraries-wheel-unspecified_92dcd9c4c489bef2fda5ee103774325ef56e0252.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/eyalpano/AndroidStudioProjects/wheel-view/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
+        <dex dex="/Users/eyalpano/AndroidStudioProjects/wheel-view/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-21.0.3_cfcc65fc342e6d75e2edcc44b930ac6b494b4201.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/eyalpano/AndroidStudioProjects/wheel-view/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="/Users/eyalpano/AndroidStudioProjects/wheel-view/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-21.0.3_6b9c3752278c1be633cc6fb7be43d93ac1bb26fc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/eyalpano/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/21.0.3/support-annotations-21.0.3.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
+        <dex dex="/Users/eyalpano/AndroidStudioProjects/wheel-view/app/build/intermediates/pre-dexed/debug/support-annotations-21.0.3_1a344e366ed1f23f2fe991952ad777943718b9b6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/eyalpano/AndroidStudioProjects/wheel-view/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/jars/libs/internal_impl-21.0.3.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="/Users/eyalpano/AndroidStudioProjects/wheel-view/app/build/intermediates/pre-dexed/debug/internal_impl-21.0.3_8c09c9bf59c2e55aa4a02e79e287f610b28c828c.jar" />
+    </item>
+
+</items>

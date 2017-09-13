@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="/Users/eyalpano/AndroidStudioProjects/wheel-view/libraries/wheel/assets"/><source path="/Users/eyalpano/AndroidStudioProjects/wheel-view/libraries/wheel/build/generated/assets/shaders/debug"/></dataSet><dataSet config="debug"><source path="/Users/eyalpano/AndroidStudioProjects/wheel-view/libraries/wheel/build-types/debug/assets"/></dataSet></merger>

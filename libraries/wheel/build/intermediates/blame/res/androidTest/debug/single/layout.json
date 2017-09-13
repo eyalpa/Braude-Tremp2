@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/eyalpano/AndroidStudioProjects/wheel-view/libraries/wheel/build/intermediates/res/merged/androidTest/debug/layout/wheel_item_time.xml",
+        "source": "/Users/eyalpano/AndroidStudioProjects/wheel-view/libraries/wheel/build/intermediates/bundles/debug/res/layout/wheel_item_time.xml"
+    },
+    {
+        "merged": "/Users/eyalpano/AndroidStudioProjects/wheel-view/libraries/wheel/build/intermediates/res/merged/androidTest/debug/layout/dialog_date.xml",
+        "source": "/Users/eyalpano/AndroidStudioProjects/wheel-view/libraries/wheel/build/intermediates/bundles/debug/res/layout/dialog_date.xml"
+    }
+]

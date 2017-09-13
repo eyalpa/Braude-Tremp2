@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="b-ride"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@drawable/dialog_bg"
+    >
+
+    <TextView
+        android:id="@+id/text"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+        android:textSize="24sp"
+        android:textStyle="normal|bold" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <Button
+                    android:id="@+id/dialogButtonCall"
+                    android:text=" Call "
+                android:textColor="#FFFFFF"
+                android:textSize="30sp"
+                android:layout_width="180dp"
+                android:layout_height="50dp"
+                android:background="@drawable/buttonshape"
+                android:shadowColor="#005AA8"
+                android:shadowDx="0"
+                android:shadowDy="0"
+                android:shadowRadius="5"
+
+                android:layout_weight="1" />
+
+            <Button
+                android:id="@+id/dialogButtonSMS"
+                android:text=" SMS "
+                android:textColor="#FFFFFF"
+                android:textSize="30sp"
+                android:layout_width="180dp"
+                android:layout_height="50dp"
+                android:background="@drawable/buttonshape"
+                android:shadowColor="#005AA8"
+                android:shadowDx="0"
+                android:shadowDy="0"
+                android:shadowRadius="5"
+
+                android:layout_weight="1" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <Button
+                    android:id="@+id/dialogButtonWA"
+                    android:text=" WhatsApp "
+                android:textColor="#FFFFFF"
+                android:textSize="30sp"
+                android:layout_width="180dp"
+                android:layout_height="50dp"
+                android:background="@drawable/buttonshape"
+                android:shadowColor="#005AA8"
+                android:shadowDx="0"
+                android:shadowDy="0"
+                android:shadowRadius="5"
+
+                android:layout_weight="1" />
+
+            <Button
+                android:id="@+id/dialogButtonClose"
+
+                android:text=" Close "
+                android:textColor="#FFFFFF"
+                android:textSize="30sp"
+                android:layout_width="180dp"
+                android:layout_height="50dp"
+                android:background="@drawable/buttonshape"
+                android:shadowColor="#005AA8"
+                android:shadowDx="0"
+                android:shadowDy="0"
+                android:shadowRadius="5"
+                android:layout_weight="1" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

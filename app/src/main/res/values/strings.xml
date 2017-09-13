@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">B-Tremp</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="setButton">Search</string>
+    <string name="cancelButton">Reset</string>
+    <string name="nowButton">Set to Now</string>
+    <string name="title_activity_main2">Main2Activity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_example">Example action</string>
+    <string name="DriverButton">Driver\'s Portal</string>
+    <string name="signUpButton">SignUp</string>
+    <string name="wellcomDriver">wellcom %name</string>
+    <string name="LogInOutButton">LogIn</string>
+    <string name="title_activity_driver_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">SignIn</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="title_activity_search_res">SearchResActivity</string>
+    <string name="prompt_Telephone">Telephone</string>
+    <string name="EditTravelButton">Edit Travel</string>
+    <string name="AddTravelButton">Add Travel</string>
+    <string name="EditDriverButton">Edit Driver Profile</string>
+    <string name="AllDayButton">Search All Day</string>
+    <string name="LogOutButton">LogOut</string>
+    <string name="title_activity_add_ride">AddRide</string>
+    <string name="title_activity_edit_ride">EditRide</string>
+    <string name="CPDriverButton">change Password</string>
+    <string name="from_date">Date</string>
+    <string name="heading_dismissable_views">Simple Views</string>
+    <string name="heading_dismissable_list_view">ListView</string>
+    <string name="title_activity_change__password">Change_Password</string>
+</resources>

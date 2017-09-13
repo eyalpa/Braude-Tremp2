@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center|center_vertical|top"
+    android:weightSum="1"
+    android:background="@drawable/background_driver">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_marginTop="60dp"
+        android:layout_height="fill_parent"
+        android:gravity="center_vertical|center_horizontal|top"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:weightSum="1">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="68dp"
+            android:weightSum="1"
+            android:gravity="right|top">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:text="@string/wellcomDriver"
+                android:id="@+id/DriverMain_Wellcom"
+                android:gravity="center_vertical"
+                android:layout_row="0"
+                android:layout_column="0"
+                android:textSize="24sp"
+                android:layout_weight="0.44" />
+
+            <Button
+                android:layout_height="fill_parent"
+                android:background="@drawable/buttonshape"
+                android:shadowColor="#005AA8"
+                android:textColor="#FFFFFF"
+                android:shadowDx="0"
+                android:shadowDy="0"
+                android:shadowRadius="5"
+                android:text="התנתק"
+                android:layout_gravity="left"
+                android:textAlignment="center"
+                android:id="@+id/DriverMain_LogOut"
+                android:onClick="onLogOutClick"
+                android:gravity="center_vertical|fill_vertical|center_horizontal|fill_horizontal"
+                android:layout_weight="0.43"
+                android:layout_width="80dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.06">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="58dp"
+                android:text="נסיעות"
+                android:textColor="#FFFFFF"
+                android:textSize="30sp"
+                android:background="@drawable/buttonshape"
+                android:shadowColor="#005AA8"
+                android:shadowDx="0"
+                android:shadowDy="0"
+                android:shadowRadius="5"
+                android:id="@+id/DriverMain_EditTravel"
+                android:onClick="onEditRideActivitylClick"
+                android:layout_row="1"
+                android:layout_column="1"
+                android:layout_weight="1" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="58dp"
+                android:textColor="#FFFFFF"
+                android:textSize="30sp"
+                android:background="@drawable/buttonshape"
+                android:shadowColor="#005AA8"
+                android:shadowDx="0"
+                android:shadowDy="0"
+                android:shadowRadius="5"
+                android:text="שנה סיסמא"
+                android:id="@+id/DriverMain_changePassword"
+                android:onClick="onChangePasswordActivityClick"
+                android:layout_row="2"
+                android:layout_column="0"
+                android:layout_weight="1" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="58dp"
+                android:textColor="#FFFFFF"
+                android:textSize="30sp"
+                android:background="@drawable/buttonshape"
+                android:shadowColor="#005AA8"
+                android:shadowDx="0"
+                android:shadowDy="0"
+                android:shadowRadius="5"
+                android:text="ערוך פרופיל"
+                android:id="@+id/DriverMain_EditDriver"
+                android:onClick="onEditDriverProfileActivityClick"
+                android:longClickable="false"
+                android:layout_row="2"
+                android:layout_column="1"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
